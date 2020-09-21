@@ -5,57 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+     <link rel="stylesheet" href="css/style.css">
+    
+
 
     <title>Frontend Mentor | Social proof section</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    10,000+ of our users love our products.
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
+    <header class="section intro">
+
+      <h1 class="intro__title">
+        10,000+ of our users love our products.
+      </h1> 
+
+     <p class="intro__subtitle">We only provide great products combined with excellent customer service.
+      See what our satisfied customers are saying about our services.
+      </p> 
+    </header>
     
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
+    <main class="container1">
+
+      <section class="columns">
+        <div class="column has-text-centered review">
+          <span class="icons">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+        Rated 5 Stars in Reviews</div>
+        <div class="column has-text-centered review">
+         <span class="icons">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>Rated 5 Stars in Report Guru</div>
+        <div class="column has-text-centered review">
+         <span class="icons">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>Rated 5 Stars in BestTech</div>     
+      </section>
     
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
+    <section class="columns testimonial section box">
+      <div class="column notification testimonial__item">
+        <div class="contain">
+           <img class="is-rounded" src="images/image-colton.jpg">
+          <h2>
+            <span class="heading__title">Colton Smith</span><br>
+            <span class="heading__subtitle"> Verified Buyer</span>
+          </h2>
+          </div>
+              <p>"We needed the same printed design as the one we had ordered a week prior.
+                Not only did they find the original order, but we also received it in time.
+                Excellent."
+            </p>
+          </div>
+      </div>
+
+        <div class="column notification testimonial__item">
+            <div class="contain">
+               <img class="is-rounded" src="images/image-irene.jpg">
+                <h2>
+                  <span class="heading__title">Irene Roberts </span><br>
+                  <span class="heading__subtitle"> Verified Buyer</span>
+                </h2>
+              </div>
+              <p>"Customer service is always excellent and very quick turn around. Completely
+                delighted with the simplicity of the purchase and the speed of delivery."</p>
+        </div>
+
+
+         <div class="column notification testimonial__item">
+            <div class="contain">
+               <img class="is-rounded" src="images/image-anne.jpg">
+                <h2>
+                  <span class="heading__title">Anne Wallace </span><br>
+                  <span class="heading__subtitle"> Verified Buyer</span>
+                </h2>
+              </div>
+              <p>"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>
+        </div>  </div>
+    </main>
 
     <div class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor. </a> Coded by <a href="#">adelek5140</a>.
     </div>
   </body>
 </html>
