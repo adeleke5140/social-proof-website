@@ -1,0 +1,28 @@
+//colors
+
+//primary color
+$p-color1:hsl(300, 43%, 22%); //very dark magenta
+$p-color2:hsl(333, 80%, 67%); //soft pink
+
+//neutral color
+$n-color1:hsl(303, 10%, 53%); //dark greyish magenta
+$n-color2:hsl(300, 24%, 96%); //light greyish magenta
+$n-color3:hsl(0, 0%, 100%); //white 
+
+$font-weights: (
+	'normal':400,
+	'medium':500,
+	'bold':700
+	);
+
+@mixin fw-norm{
+	font-weight: map-get($font-weights, 'normal');
+}
+
+@mixin fw-medium{
+	font-weight: map-get($font-weights, 'medium');
+}
+
+@mixin fw-bold{
+	font-weight: map-get($font-weights, 'bold');
+}
