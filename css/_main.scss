@@ -1,22 +1,8 @@
-.review {
-	background:$n-color2;
-	padding: 1.5em 3em;
-	margin-bottom: 1.5rem;
-	margin-left: 2rem;
-	margin-right: 2rem;
-	border-radius: 10px;
-	color:$p-color1;
-	@include fw-bold;
 
-	.icons{
-		display: block;
-
-		.fa-star {
-			margin-bottom: .4em;
-			color:#f9b008;
-		}
-	}
+.container1 {
+	padding-top: 0;
 }
+
 
 .testimonial__item{
 	background: $p-color1;
