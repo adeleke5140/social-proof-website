@@ -1,0 +1,157 @@
+//media query for tablet mode
+
+@media only screen and (min-width: 767px) and (max-width: 1023px){
+	//header section
+	.intro{
+		background-position: left top;
+		display: grid;
+		grid-template-columns: 50% 2fr;
+		grid-template-rows: auto;
+		grid-column-gap: 3em;
+		margin-left: 5%;
+		margin-right: 7%;
+		padding-top:7%;
+
+		&__content{
+			grid-column: 1/2;
+			text-align: center;
+		}
+
+		&__title{
+			text-align: left;
+			font-size: 2.8rem;
+			line-height: 1.1;
+			width: 100%;
+		}
+
+		&__subtitle{
+			text-align: left;
+			width:80%;
+		}
+	}
+
+	.intro__reviews{
+		display: flex;
+		flex-direction: column;
+		padding-top: 5%;
+		position:relative;
+		left:-40px;
+
+		.review{
+			
+			display: flex;
+			justify-content: space-between;
+			width: 270px;
+			padding:1.3em 2em;
+
+			&:nth-of-type(2){
+				position:relative;
+				left: 15%;
+			}
+
+			&:nth-of-type(3){
+				position:relative;
+				left: 30%;
+			}
+
+			}
+	}
+
+	//this would apply margin to the main container
+	.container1{
+		margin: 0 7% 0 5%;
+	}
+	//main container
+	.testimonial__item{
+		margin-right: 2%;
+
+		&:nth-of-type(2){
+			position:relative;
+			top:30px;
+		}
+
+		&:nth-of-type(3){
+			position:relative;
+			top: 60px;
+		}
+	}
+
+}
+
+
+//media query for desktop
+
+@media only screen and (min-width: 1024px){
+
+	//header section
+	.intro{
+		background-position: left top;
+		display: grid;
+		grid-template-columns: 50% 2fr;
+		grid-template-rows: auto;
+		grid-column-gap: 3em;
+		margin-left: 5%;
+		margin-right: 7%;
+		padding-top:7%;
+
+		&__content{
+			grid-column: 1/2;
+			text-align: center;
+		}
+
+		&__title{
+			text-align: left;
+			font-size: 2.8rem;
+			line-height: 1.1;
+			width: 80%;
+		}
+
+		&__subtitle{
+			text-align: left;
+			width:80%;
+		}
+	}
+
+	.intro__reviews{
+		display: flex;
+		flex-direction: column;
+		padding-top: 5%;
+
+		.review{
+			display: flex;
+			justify-content: space-between;
+			width: 80%;
+			padding:1.3em 2em;
+
+			&:nth-of-type(2){
+				position:relative;
+				left: 15%;
+			}
+
+			&:nth-of-type(3){
+				position:relative;
+				left: 30%;
+			}
+
+			}
+	}
+
+	//this would apply margin to the main container
+	.container1{
+		margin: 0 7% 0 5%;
+	}
+	//main container
+	.testimonial__item{
+		margin-right: 2%;
+
+		&:nth-of-type(2){
+			position:relative;
+			top:30px;
+		}
+
+		&:nth-of-type(3){
+			position:relative;
+			top: 60px;
+		}
+	}
+}
